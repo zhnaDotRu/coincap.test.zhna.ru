@@ -1,0 +1,28 @@
+.button-get {
+  align-self: center;
+  background-color: green;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  flex-basis: 40px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  line-height: 40px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  width: 150px;
+
+  &::before {
+    content: 'View More';
+  }
+
+  &.is-load {
+    background-image: url(https://flevix.com/wp-content/uploads/2019/07/Ring-Preloader.gif);
+    background-position: center;
+    background-size: cover;
+
+    &::before {
+      content: '';
+    }
+  }
+}

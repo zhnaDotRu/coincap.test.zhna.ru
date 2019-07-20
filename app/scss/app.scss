@@ -1,0 +1,17 @@
+#app {
+  height: 100%;
+
+  &::before {
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    content: '';
+    display: block;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+
+    @media (max-width: 740px) {
+      display: none;
+    }
+  }
+}

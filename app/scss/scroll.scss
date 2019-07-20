@@ -1,0 +1,22 @@
+.scroll {
+  background-color: #fff;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 60px;
+  width: 18px;
+  z-index: 1;
+
+  &::before {
+    background-color: rgb(100, 181, 246);
+    content: '';
+    display: block;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+  }
+
+  &.is-none {
+    display: none;
+  }
+}

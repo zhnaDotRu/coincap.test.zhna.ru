@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import './scss/header.scss';
+@import './scss/app.scss';
+@import './scss/info.scss';
+@import './scss/table.scss';
+@import './scss/scroll.scss';
+@import './scss/button-get.scss';
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+}
